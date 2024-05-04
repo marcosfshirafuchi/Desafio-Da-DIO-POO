@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-05-04T20:26:02.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="whsUTgiMOKsckE8qZTn4" version="24.3.1" type="device">
+  <diagram name="Página-1" id="WTol3Smmlu7J9kQswhwj">
+    <mxGraphModel dx="1165" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IAR-9iAAyjZPXhoG49af-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ReprodutorMusical&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tocar(musica : String): void&lt;br&gt;+ pausar(musica : String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selecionarMusica(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="20" y="30" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IAR-9iAAyjZPXhoG49af-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;AparelhoTelefonico&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ligar(nome: String): void&lt;br&gt;+ atender(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ iniciarCorreioVoz(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="30" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IAR-9iAAyjZPXhoG49af-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;NavegadorNaInternet&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ exibirPagina(nomePagina: String): void&lt;br&gt;+ adicionarNovaAba(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ atualizarPagina(nomeDaPagina : String): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="550" y="30" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QHlKnFBd5MIJCeOVD4Nj-10" value="name" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QHlKnFBd5MIJCeOVD4Nj-20" target="IAR-9iAAyjZPXhoG49af-7">
+          <mxGeometry x="-0.6906" y="35" relative="1" as="geometry">
+            <mxPoint x="495" y="585" as="sourcePoint" />
+            <mxPoint x="610" y="270" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QHlKnFBd5MIJCeOVD4Nj-11" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="QHlKnFBd5MIJCeOVD4Nj-10">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QHlKnFBd5MIJCeOVD4Nj-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Iphone&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QHlKnFBd5MIJCeOVD4Nj-30" value="name" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QHlKnFBd5MIJCeOVD4Nj-20" target="IAR-9iAAyjZPXhoG49af-6">
+          <mxGeometry x="-0.8644" y="30" relative="1" as="geometry">
+            <mxPoint x="420" y="580" as="sourcePoint" />
+            <mxPoint x="490" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QHlKnFBd5MIJCeOVD4Nj-31" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="QHlKnFBd5MIJCeOVD4Nj-30">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QHlKnFBd5MIJCeOVD4Nj-33" value="name" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QHlKnFBd5MIJCeOVD4Nj-20" target="IAR-9iAAyjZPXhoG49af-8">
+          <mxGeometry x="-0.8788" y="-45" relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="sourcePoint" />
+            <mxPoint x="680" y="520" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QHlKnFBd5MIJCeOVD4Nj-34" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="QHlKnFBd5MIJCeOVD4Nj-33">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
